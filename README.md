@@ -112,3 +112,4 @@ Note that at the time of writing, Snap store authorization for Launchpad has an 
 #### Removing old release lines
 
 When release lines stop seeing new releases, they can be removed from [.github/workflows/cron.yml](./.github/workflows/cron.yml). This stops the entire pipeline from running (although changes to the relevant branch will not even occur without new releases on nodejs.org). The Snap configuration in Launchpad can also be removed but this is not strictly necessary.
+#1
